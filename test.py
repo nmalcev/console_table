@@ -19,6 +19,7 @@ def drawDict(dic):
 #========================================
 # Some waste code
 #========================================
+print('[Example: colored output]')
 buf = C.echo('Hello', C.LIME)
 print(buf)
 print('SIZE %s %s %s' % (len(buf), len(C.LIME), len('Hello')))
@@ -32,6 +33,7 @@ print(string_to_list(buf))
 #========================================
 # Example of printing table rows
 #========================================
+print('\n[Example: simple table]')
 table = Table()
 print(table.add_topline())
 
@@ -44,10 +46,10 @@ print(table.add_row(
 print(table.add_row(
 	list(map(string_to_list, [C.echo('Hello', C.OKGREEN), C.echo('World!', C.WARNING)]))
 ))
-print('\n\n')
 #========================================
 # Print dictionary object in table
 #========================================
+print('\n[Example: print dictionary at table]')
 data1 = {
 	'fetch': 'http://rb-validation.virool.com/event?type=page_load&browser=Chrome--51.0&domain=folha.uol.com.br&site_id=108008&embed_key=07ynlh2kpfl9', 
 	'httpStatus': 0, 
@@ -72,6 +74,7 @@ def drawDict(dic):
 		colNumber += 1
 
 drawDict(data1)
+print('\n')
 drawDict(data2)
 
 
