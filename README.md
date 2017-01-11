@@ -1,4 +1,4 @@
-# console_table
+# ConsoleTable
 Toolkit for drawing tables by chars
 
 There are:
