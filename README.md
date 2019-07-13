@@ -1,9 +1,9 @@
 # ConsoleTable
-Toolkit for drawing tables by chars
+Toolkit for drawing text tables 
 
-There are:
-- `console.py` tools for coloring console output
-- `table.py` library for drawing table
+Files:
+- `console.py` tools for coloring the console output;
+- `table.py` module for creating simple ASCII tables.
 
 ![Screenshot](https://raw.githubusercontent.com/nmalcev/console_table/screenshots/screenshots/tables1.png?raw=true "Screenshot")
 
